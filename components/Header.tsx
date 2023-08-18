@@ -16,8 +16,8 @@ import {
 import Carousel from './Carousel';
 
 const Header: React.FC = () => (
-  <div>
-    <header className="bg-red-600 h-6 flex items-center justify-between px-4 w-full">
+  <div className="fixed top-0 w-full bg-white z-50 shadow">
+    <header className="bg-red-600 h-6 flex items-center justify-between px-4 w-full sticky top-0">
       <div className="flex items-center space-x-4 ml-auto mr-10">
         <div className="flex items-center space-x-2">
           <FontAwesomeIcon
@@ -123,7 +123,6 @@ const Header: React.FC = () => (
         </a>
       </div>
     </div>
-    <Carousel />
   </div>
 );
 
