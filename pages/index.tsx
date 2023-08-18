@@ -10,11 +10,13 @@ import NuestrosServicios from '../components/NuestrosServicios';
 import Marcas from '../components/Marcas';
 import Contacto from '../components/Contacto';
 import Footer from '../components/Footer';
+import Carousel from '../components/Carousel';
 
 function HomePage() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
       <Header />
+      <Carousel />
       <Categorias />
       <ProductosDestacados />
       <Imagenes />
